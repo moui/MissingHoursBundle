@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="email.en.xlf">
+    <body>
+      <trans-unit id="4def2837d4" resname="missing_hours.summary.subject">
+        <source>[Kimai] Missing hours report (%from% – %to%)</source>
+        <target>[Kimai] Missing hours report (%from% – %to%)</target>
+      </trans-unit>
+      <trans-unit id="b6d05b0250" resname="missing_hours.summary.heading">
+        <source>Missing hours summary (%from% to %to%)</source>
+        <target>Missing hours summary (%from% to %to%)</target>
+      </trans-unit>
+      <trans-unit id="a49024e37c" resname="missing_hours.summary.intro">
+        <source>Users with missing hours:</source>
+        <target>Users with missing hours:</target>
+      </trans-unit>
+      <trans-unit id="0745bb3ad2" resname="missing_hours.summary.line">
+        <source>- %name% (%email%): Expected %expected% | Recorded %actual% | Difference %difference%</source>
+        <target>- %name% (%email%): Expected %expected% | Recorded %actual% | Difference %difference%</target>
+      </trans-unit>
+      <trans-unit id="170b908399" resname="missing_hours.summary.no_email">
+        <source>no email</source>
+        <target>no email</target>
+      </trans-unit>
+      <trans-unit id="1c39483c9a" resname="missing_hours.summary.report_link">
+        <source>Full report: %url%</source>
+        <target>Full report: %url%</target>
+      </trans-unit>
+      <trans-unit id="192256d9b3" resname="missing_hours.reminder.subject">
+        <source>[Kimai] Missing hours notice</source>
+        <target>[Kimai] Missing hours notice</target>
+      </trans-unit>
+      <trans-unit id="354a2ee362" resname="missing_hours.reminder.greeting">
+        <source>Hello %name%,</source>
+        <target>Hello %name%,</target>
+      </trans-unit>
+      <trans-unit id="3444062b0a" resname="missing_hours.reminder.intro">
+        <source>Between %from% and %to% you recorded fewer hours than expected.</source>
+        <target>Between %from% and %to% you recorded fewer hours than expected.</target>
+      </trans-unit>
+      <trans-unit id="7344ddb935" resname="missing_hours.reminder.expected">
+        <source>Expected hours: %hours%</source>
+        <target>Expected hours: %hours%</target>
+      </trans-unit>
+      <trans-unit id="0a7227392e" resname="missing_hours.reminder.actual">
+        <source>Recorded hours: %hours%</source>
+        <target>Recorded hours: %hours%</target>
+      </trans-unit>
+      <trans-unit id="7c8463d567" resname="missing_hours.reminder.difference">
+        <source>Difference: %hours%</source>
+        <target>Difference: %hours%</target>
+      </trans-unit>
+      <trans-unit id="e30969dd69" resname="missing_hours.reminder.action">
+        <source>Please review and complete your times in Kimai.</source>
+        <target>Please review and complete your times in Kimai.</target>
+      </trans-unit>
+      <trans-unit id="fe4e9403d6" resname="missing_hours.reminder.contact">
+        <source>If you think this is a mistake, contact your supervisor.</source>
+        <target>If you think this is a mistake, contact your supervisor.</target>
+      </trans-unit>
+      <trans-unit id="96b025e120" resname="missing_hours.reminder.thanks">
+        <source>Thank you!</source>
+        <target>Thank you!</target>
+      </trans-unit>
+      <trans-unit id="1145ce85bb" resname="missing_hours.reminder.link">
+        <source>You can open Kimai here: %url%</source>
+        <target>You can open Kimai here: %url%</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,48 @@
+{% embed '@theme/embeds/card.html.twig' with {'border': false, 'margin_bottom': 0} %}
+    {% block box_title %}{{ title|trans }}{% endblock %}
+    {% block box_body_class %}p-0{% endblock %}
+    {% block box_body %}
+        {% set has_contract = data|filter(item => item.row is not null and item.row.hasContract)|length > 0 %}
+        {% if not has_contract %}
+            <div class="p-3 text-secondary">
+                {{ 'missing_hours.widget.no_contract'|trans }}
+            </div>
+        {% else %}
+            <table class="table table-vcenter card-table">
+                <thead>
+                    <tr>
+                        <th>{{ 'missing_hours.period'|trans }}</th>
+                        <th class="text-end">{{ 'missing_hours.expected'|trans }}</th>
+                        <th class="text-end">{{ 'missing_hours.actual'|trans }}</th>
+                        <th class="text-end">{{ 'missing_hours.difference'|trans }}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in data %}
+                        <tr>
+                            <td>
+                                {{ item.label|trans }}
+                                {% if item.period is not null %}
+                                    <div class="small text-secondary">{{ item.period.from|date_short }} – {{ item.period.to|date_short }}</div>
+                                {% endif %}
+                            </td>
+                            {% if item.row is null %}
+                                <td colspan="3" class="text-end text-secondary">{{ 'missing_hours.widget.no_complete_days'|trans }}</td>
+                            {% else %}
+                                <td class="text-end">{{ item.row.expectedFormatted }}</td>
+                                <td class="text-end">{{ item.row.actualFormatted }}</td>
+                                <td class="text-end">
+                                    {% if item.row.missing %}
+                                        <span class="badge bg-red-lt">{{ item.row.differenceFormatted }}</span>
+                                    {% else %}
+                                        <span class="badge bg-green-lt">{{ item.row.differenceFormatted }}</span>
+                                    {% endif %}
+                                </td>
+                            {% endif %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endif %}
+    {% endblock %}
+{% endembed %}

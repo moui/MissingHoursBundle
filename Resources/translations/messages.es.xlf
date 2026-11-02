@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="es" datatype="plaintext" original="messages.es.xlf">
+    <body>
+      <trans-unit id="ab7c47dde2" resname="missing_hours.widget.title">
+        <source>My missing hours</source>
+        <target>Mis horas faltantes</target>
+      </trans-unit>
+      <trans-unit id="527c3abf68" resname="missing_hours.widget.no_contract">
+        <source>You have no working times configured in your profile, so there are no expected hours to compare against.</source>
+        <target>No tienes horas de trabajo configuradas en tu perfil, así que no hay horas esperadas para comparar.</target>
+      </trans-unit>
+      <trans-unit id="c8764e50a2" resname="missing_hours.widget.no_complete_days">
+        <source>No completed days yet</source>
+        <target>Sin días completos todavía</target>
+      </trans-unit>
+      <trans-unit id="37aaa378bd" resname="missing_hours.period">
+        <source>Period</source>
+        <target>Período</target>
+      </trans-unit>
+      <trans-unit id="367eeb3db8" resname="missing_hours.period.last_week">
+        <source>Last week</source>
+        <target>Semana anterior</target>
+      </trans-unit>
+      <trans-unit id="c81e2efb3e" resname="missing_hours.period.last_month">
+        <source>Last month</source>
+        <target>Mes anterior</target>
+      </trans-unit>
+      <trans-unit id="cf63dc2c9d" resname="missing_hours.period.this_week_to_yesterday">
+        <source>This week (until yesterday)</source>
+        <target>Esta semana (hasta ayer)</target>
+      </trans-unit>
+      <trans-unit id="5a8eab1127" resname="missing_hours.period.this_month_to_yesterday">
+        <source>This month (until yesterday)</source>
+        <target>Este mes (hasta ayer)</target>
+      </trans-unit>
+      <trans-unit id="a77a423a1d" resname="missing_hours.from">
+        <source>From</source>
+        <target>Desde</target>
+      </trans-unit>
+      <trans-unit id="9d6379d726" resname="missing_hours.to">
+        <source>To</source>
+        <target>Hasta</target>
+      </trans-unit>
+      <trans-unit id="fe035099f8" resname="missing_hours.include_up_to_date">
+        <source>Include users who are up to date</source>
+        <target>Incluir usuarios al día</target>
+      </trans-unit>
+      <trans-unit id="ea45cebdd6" resname="missing_hours.show">
+        <source>Show</source>
+        <target>Ver</target>
+      </trans-unit>
+      <trans-unit id="a5797ac0a2" resname="missing_hours.expected">
+        <source>Expected</source>
+        <target>Esperadas</target>
+      </trans-unit>
+      <trans-unit id="db096070ea" resname="missing_hours.actual">
+        <source>Recorded</source>
+        <target>Registradas</target>
+      </trans-unit>
+      <trans-unit id="34d824660d" resname="missing_hours.difference">
+        <source>Difference</source>
+        <target>Diferencia</target>
+      </trans-unit>
+      <trans-unit id="9bb34aff64" resname="missing_hours.stats.users_below">
+        <source>Users below target</source>
+        <target>Usuarios por debajo del objetivo</target>
+      </trans-unit>
+      <trans-unit id="47c3115761" resname="missing_hours.stats.total_missing">
+        <source>Total missing hours</source>
+        <target>Horas faltantes totales</target>
+      </trans-unit>
+      <trans-unit id="5d5e075a76" resname="missing_hours.stats.average_missing">
+        <source>Average missing per user</source>
+        <target>Promedio faltante por usuario</target>
+      </trans-unit>
+      <trans-unit id="e1deefda83" resname="missing_hours.report.empty">
+        <source>No users with missing hours were found in the selected period.</source>
+        <target>No se encontraron usuarios con horas faltantes en el período seleccionado.</target>
+      </trans-unit>
+      <trans-unit id="d78a73471b" resname="missing_hours.report.footnote">
+        <source>Expected hours are the ones shown on Kimai's "%page%" page: they respect locked months and each person's start date. Only finished records are counted. Administrators are not included.</source>
+        <target>Las horas esperadas son las de la pantalla «%page%» de Kimai: respetan los meses bloqueados y la fecha de inicio de cada persona. Solo se cuentan registros finalizados. Los administradores no se incluyen.</target>
+      </trans-unit>
+      <trans-unit id="10b290cbd6" resname="missing_hours.csv.expected_hours">
+        <source>Expected hours</source>
+        <target>Horas esperadas</target>
+      </trans-unit>
+      <trans-unit id="9f9b3bf97d" resname="missing_hours.csv.actual_hours">
+        <source>Recorded hours</source>
+        <target>Horas registradas</target>
+      </trans-unit>
+      <trans-unit id="db8072dafd" resname="missing_hours.csv.difference_hours">
+        <source>Difference in hours</source>
+        <target>Diferencia de horas</target>
+      </trans-unit>
+      <trans-unit id="17c303b238" resname="missing_hours.error.invalid_date">
+        <source>Use valid dates in YYYY-MM-DD format.</source>
+        <target>Usa fechas válidas en formato AAAA-MM-DD.</target>
+      </trans-unit>
+      <trans-unit id="b96d8cb649" resname="missing_hours.error.range_order">
+        <source>The start date must be before the end date.</source>
+        <target>La fecha de inicio debe ser anterior a la fecha de fin.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
